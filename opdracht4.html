@@ -1,0 +1,21 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+	<title>Opdracht4</title>
+</head>
+<body>
+	<script>
+		var aankoopbedrag;
+		var totaalbedrag;
+
+		aankoopbedrag = prompt("Wat is het aankoopbedrag in euro's?" , "Vul hier het aankoopbedrag in");
+		aankoopbedrag = parseFloat(aankoopbedrag);
+		totaalbedrag = aankoopbedrag +  3.95
+
+		if(aankoopbedrag < 25){
+			alert("Uw totale kosten zijn " + totaalbedrag );
+		}else {
+			alert("U heeft geen verzendkosten!");
+		}
+
+	</script>
